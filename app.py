@@ -43,7 +43,7 @@ def predict():
 
     prediction = loadedModel.predict([message])[0]
     
-    if prediction == 'Ham':
+    if prediction == 'ham':
         prediction = "Genuine Message"
     else:
         prediction = 'Spam Message'
